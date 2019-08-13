@@ -1,0 +1,18 @@
+<?php
+    if ($this->getSignupLink()):
+?>
+<div class="chippin-payment-notice">
+    <?php echo Mage::helper('chippinpayment')->__('Not yet got a Chippin account? Click <a href="%s" target="_blank">here</a> to register.', $this->getSignupLink()); ?>
+</div>
+<?php
+    endif;
+?>
+<ul>
+   <li>
+        <strong>Integrtion Urls</strong><br/>
+        Enter these into the Chippin configuration screen.
+    </li>
+    <?php foreach ($this->getIntegrationUrls() as $label => $url) { ?>
+    <li><?php echo $label; ?>: <?php echo $url; ?></li>
+    <?php } ?>
+</ul>
