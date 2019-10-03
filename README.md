@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Chippin is a shared payment gateway that allows you, the merchant, the ability to offer group buying for a single order. This means that a customer can split the cost of a purchase with their friends/family.
