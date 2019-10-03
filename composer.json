@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/chippinpayments",
+    "name": "OpenMageModuleFostering\/chippinpayments",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
-    "description": "Chippin is a shared payment gateway that allows you, the merchant, the ability to offer group buying for a single order. This means that a customer can split the cost of a purchase with their friends/family.",
+    "description": "Chippin is a shared payment gateway that allows you, the merchant, the ability to offer group buying for a single order. This means that a customer can split the cost of a purchase with their friends\/family.",
     "authors": [
-    {
-        "name": "Toby Rhodes",
-        "email": "alistair_stead+chippin@me.com"
-    }
-],
+        {
+            "name": "Toby Rhodes",
+            "email": "alistair_stead+chippin@me.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
